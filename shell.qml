@@ -1,5 +1,14 @@
+//@ pragma UseQApplication 
+
 import QtQuick
 import Quickshell
-import "./modules"
+import "./modules/bar.qml"
 
-Bar {}
+shellroot {
+
+    Loader{
+        active: true
+        sourceComponent: Bar {}
+    }
+}
+
