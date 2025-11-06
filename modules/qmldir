@@ -1,0 +1,7 @@
+# modules/qmldir
+
+# Syntax: <TypeName> <FileName>
+
+# This line makes the component defined in bar.qml available
+# to importers (like shell.qml) under the name 'Bar'.
+Bar bar.qml
